@@ -13,3 +13,8 @@
 • Add <base href="https://mysite.example/resources/">.
 • In <body>: add a heading, a paragraph, and a relative link to 'guide.html' (it must resolve via <base>). 
 ```
+
+Here's the Output :- 
+
+
+![alt text](image.png)
