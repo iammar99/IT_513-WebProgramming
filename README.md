@@ -14,10 +14,8 @@ The course introduces the fundamentals of **web technologies**. Students will ga
 ```bash
 IT-513-WebProgramming/
 │
-├── assignments/       # Weekly assignments
-├── projects/          # Mini and final projects
-├── practice/          # Practice exercises
-└── README.md          # Repository documentation
+├── Excercise/       # Weekly assignments
+└── README.md        # Repository documentation
 ```
 
 
