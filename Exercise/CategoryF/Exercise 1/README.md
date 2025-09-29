@@ -1,10 +1,11 @@
-# CategoryC - Exercise # 1 
+# CategoryF - Exercise # 1 
 
 
 ```
-• Create 'article.html' with <h1>–<h3>, two <p> blocks, and a <blockquote> with a cite URL.
-• Include a due date using <time>, and one inline quote using <q>.
-• Show one code sample using <pre><code>…</code></pre> and one keyboard hint with <kbd>. 
+• Build 'contact.html' with a form that includes: <label>/<input> (email, tel), <textarea> for message, and
+a <select> for subject.
+• Group related inputs with <fieldset>/<legend>.
+• Add a <datalist> for city suggestions and a <button> to submit. 
 ```
 
 
