@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article | CategoryC - Exercise # 1</title>
+
+    <!-- Favicon Icon -->
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+    <!-- Base URL -->
+    <base href="http://127.0.0.1:5500/links.html">
+</head>
+
+<body>
+    <header>
+        <h1>Links demo</h1>
+        <nav>
+            <!-- Internal fragment link -->
+            <a href="#contact">Jump to Contact section</a> |
+            <!-- External link opens in a new tab and uses rel="noopener" -->
+            <a href="https://developer.mozilla.org/" target="_blank" rel="noopener">MDN Web Docs (external)</a> |
+            <!-- Downloadable link -->
+            <a href="resources/assignment.pdf" download="assignment.pdf">Download assignment (PDF)</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Gallery</h2>
+
+            <!-- Figure with meaningful alt text -->
+            <figure>
+                <img src="Assets/images.jpg"
+                    alt="A polaroid-style portrait of a couple holding hands, standing side by side" width="480" />
+                <figcaption>Polaroid portrait — a posed studio shot of a couple.</figcaption>
+            </figure>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>
+                This is the section targeted by the internal fragment link above.
+                Use the downloadable link to get the example PDF in the nav.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© Your Name — Example page demonstrating links & accessible image markup.</p>
+    </footer>
+</body>
+
+</html>
