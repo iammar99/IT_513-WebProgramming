@@ -15,7 +15,7 @@ The course introduces the fundamentals of **web technologies**. Students will ga
 IT-513-WebProgramming/
 │
 ├── Excercise/       # Weekly Excercise
-├── Assignments/       # Weekly assignments
+├── Assignments/     # Weekly assignments
 └── README.md        # Repository documentation
 ```
 
