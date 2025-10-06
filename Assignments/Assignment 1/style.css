@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.webdev-body {
+body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   background-color: #f4f7fa;
@@ -16,18 +16,16 @@
 .webdev-header {
   background: linear-gradient(90deg, #2c3e50, #34495e);
   color: #fff;
-  padding: 1rem 2rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 16px 32px;
 }
 
 .webdev-title {
-  margin-bottom: 0.8rem;
+  margin-bottom: 13px;
   letter-spacing: 1px;
 }
 
 .webdev-nav-list {
   display: flex;
-  gap: 1rem;
   list-style: none;
   flex-wrap: wrap;
 }
@@ -36,7 +34,6 @@
   text-decoration: none;
   color: #ecf0f1;
   font-weight: 600;
-  transition: all 0.3s ease;
   padding: 6px 10px;
   border-radius: 5px;
 }
@@ -46,24 +43,21 @@
   color: #34495e;
 }
 
-
-
 /* ===================| Footer |=================== */
 
 .webdev-footer {
   background-color: #2c3e50;
   color: white;
-  padding: 1.5rem;
+  padding: 24px;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 32px;
 }
 
 .webdev-footer-nav-list {
   display: flex;
   justify-content: center;
   list-style: none;
-  gap: 1rem;
-  margin: 1rem 0;
+  margin: 16px 0;
   flex-wrap: wrap;
 }
 
@@ -71,7 +65,6 @@
   text-decoration: none;
   color: #ecf0f1;
   font-weight: 600;
-  transition: all ease 0.3s;
   padding: 4px 10px;
   border-radius: 5px;
 }
@@ -84,7 +77,6 @@
 /* ===================| Responsive |=================== */
 
 @media (max-width: 600px) {
-
   .webdev-nav-list,
   .webdev-footer-nav-list {
     flex-direction: column;
@@ -93,19 +85,18 @@
   }
 
   .webdev-main {
-    padding: 1rem;
+    padding: 16px;
   }
 
   .webdev-section-title {
-    font-size: 1.5rem;
+    font-size: 24px;
   }
 }
-
 
 /* ===================| Index |=================== */
 
 .webdev-main {
-  padding: 2rem;
+  padding: 32px;
   max-width: 1100px;
   margin: 0 auto;
 }
@@ -113,8 +104,8 @@
 .webdev-section-title {
   text-align: center;
   color: #2c3e50;
-  margin-bottom: 2rem;
-  font-size: 1.8rem;
+  margin-bottom: 32px;
+  font-size: 29px;
   display: inline-block;
   padding-bottom: 5px;
   position: relative;
@@ -130,33 +121,29 @@
   border-radius: 10px;
 }
 
-
 .webdev-article {
-  margin: 2rem 0;
-  padding: 1.5rem;
+  margin: 32px 0;
+  padding: 24px;
   border-radius: 10px;
   background-color: #fff;
   border-left: 6px solid #34495e;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
 }
 
 .webdev-article-title {
   color: #1abc9c;
-  margin-bottom: 0.8rem;
-  font-size: 1.3rem;
+  margin-bottom: 13px;
+  font-size: 21px;
 }
 
 .webdev-list {
-  margin-left: 1.5rem;
-  margin-top: 0.8rem;
+  margin-left: 24px;
+  margin-top: 13px;
 }
-
 
 /* ===================| Products |=================== */
 
-
 .products-main {
-  padding: 2rem;
+  padding: 32px;
   max-width: 1000px;
   margin: auto;
 }
@@ -164,13 +151,13 @@
 .products-section {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 32px;
 }
 
 .products-title {
   text-align: center;
   color: #2c3e50;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 }
 
 .products-article {
@@ -178,7 +165,6 @@
   padding: 20px;
   border-left: 5px solid #2c3e50;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .products-subtitle {
@@ -233,7 +219,7 @@
 
 @media screen and (max-width: 500px) {
   .products-main {
-    padding: 1rem;
+    padding: 16px;
   }
 
   .products-table th,
@@ -243,11 +229,10 @@
   }
 }
 
-
 /* ===================| Registration |=================== */
 
 .registration-main {
-  padding: 2rem;
+  padding: 32px;
   max-width: 800px;
   margin: auto;
 }
@@ -255,21 +240,20 @@
 .registration-section {
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  padding: 2rem;
+  padding: 32px;
 }
 
 .registration-title {
   text-align: center;
   color: #2c3e50;
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
 }
 
 .registration-fieldset {
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
   border: 2px solid #2c3e50;
   border-radius: 8px;
-  padding: 1rem 1.5rem;
+  padding: 16px 24px;
 }
 
 .registration-legend {
@@ -279,7 +263,7 @@
 }
 
 .registration-input-group {
-  margin: 1rem 0;
+  margin: 16px 0;
 }
 
 .registration-label {
@@ -303,7 +287,7 @@
 
 .registration-buttons {
   text-align: center;
-  margin-top: 1.5rem;
+  margin-top: 24px;
 }
 
 .registration-submit,
@@ -314,7 +298,6 @@
   padding: 10px 20px;
   border-radius: 6px;
   cursor: pointer;
-  transition: all 0.3s ease;
   font-weight: 600;
 }
 
@@ -337,12 +320,10 @@
   }
 }
 
-
-
 /* ===================| Contact |=================== */
 
 .contact-main {
-  padding: 2rem;
+  padding: 32px;
   max-width: 900px;
   margin: auto;
 }
@@ -350,30 +331,29 @@
 .contact-section {
   background-color: #fff;
   border-radius: 10px;
-  padding: 2rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 32px;
 }
 
 .contact-title {
   text-align: center;
   color: #2c3e50;
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
 }
 
 .contact-article {
-  margin-bottom: 2rem;
+  margin-bottom: 32px;
   border-left: 5px solid #2c3e50;
-  padding-left: 1rem;
+  padding-left: 16px;
   border-radius: 10px;
 }
 
 .contact-subtitle {
   color: #1abc9c;
-  margin-bottom: 0.5rem;
+  margin-bottom: 8px;
 }
 
 .contact-form-group {
-  margin: 1rem 0;
+  margin: 16px 0;
 }
 
 .contact-label {
@@ -406,7 +386,6 @@
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  transition: 0.3s;
   font-weight: 600;
 }
 
