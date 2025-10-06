@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    </link>
+    <title>WebDev Course - Registration</title>
+</head>
+
+<body>
+    <header class="webdev-header">
+        <h1 class="webdev-title">WebDev Course</h1>
+        <nav class="webdev-nav">
+            <ul class="webdev-nav-list">
+                <li><a href="index.html" class="webdev-nav-link">Home</a></li>
+                <li><a href="registration.html" class="webdev-nav-link">Registration</a></li>
+                <li><a href="products.html" class="webdev-nav-link">Products</a></li>
+                <li><a href="contact.html" class="webdev-nav-link">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="registration-main">
+        <section class="registration-section">
+            <h2 class="registration-title">User Registration</h2>
+
+            <form class="registration-form" action="registration-success.html" method="get">
+                <fieldset class="registration-fieldset">
+                    <legend class="registration-legend">Personal Information</legend>
+
+                    <p class="registration-input-group">
+                        <label for="first-name" class="registration-label">First Name:</label>
+                        <input type="text" id="first-name" name="first-name" class="registration-input" required />
+                    </p>
+
+                    <p class="registration-input-group">
+                        <label for="last-name" class="registration-label">Last Name:</label>
+                        <input type="text" id="last-name" name="last-name" class="registration-input" required />
+                    </p>
+
+                    <p class="registration-input-group">
+                        <label for="email" class="registration-label">Email:</label>
+                        <input type="email" id="email" name="email" class="registration-input" required />
+                    </p>
+
+                    <p class="registration-input-group">
+                        <label for="phone" class="registration-label">Phone:</label>
+                        <input type="tel" id="phone" name="phone" class="registration-input" />
+                    </p>
+                </fieldset>
+
+                <fieldset class="registration-fieldset">
+                    <legend class="registration-legend">Account Information</legend>
+
+                    <p class="registration-input-group">
+                        <label for="username" class="registration-label">Username:</label>
+                        <input type="text" id="username" name="username" class="registration-input" required />
+                    </p>
+
+                    <p class="registration-input-group">
+                        <label for="password" class="registration-label">Password:</label>
+                        <input type="password" id="password" name="password" class="registration-input" required
+                            minlength="8" />
+                    </p>
+
+                    <p class="registration-input-group">
+                        <label for="confirm-password" class="registration-label">Confirm Password:</label>
+                        <input type="password" id="confirm-password" name="confirm-password" class="registration-input"
+                            required />
+                    </p>
+                </fieldset>
+
+                <fieldset class="registration-fieldset">
+                    <legend class="registration-legend">Additional Information</legend>
+
+                    <p class="registration-input-group">
+                        <label for="birthdate" class="registration-label">Birth Date:</label>
+                        <input type="date" id="birthdate" name="birthdate" class="registration-input" />
+                    </p>
+
+                    <p class="registration-input-group">
+                        <label for="course-level" class="registration-label">Course Level:</label>
+                        <select id="course-level" name="course-level" class="registration-select">
+                            <option value="beginner">Beginner</option>
+                            <option value="intermediate">Intermediate</option>
+                            <option value="advanced">Advanced</option>
+                        </select>
+                    </p>
+
+                    <p class="registration-input-group">
+                        <label class="registration-label">Interests:</label><br />
+
+                        <input type="checkbox" id="frontend" name="interests" value="frontend"
+                            class="registration-checkbox" />
+                        <label for="frontend">Frontend Development</label><br />
+
+                        <input type="checkbox" id="backend" name="interests" value="backend"
+                            class="registration-checkbox" />
+                        <label for="backend">Backend Development</label><br />
+
+                        <input type="checkbox" id="fullstack" name="interests" value="fullstack"
+                            class="registration-checkbox" />
+                        <label for="fullstack">Full Stack Development</label>
+                    </p>
+
+                    <p class="registration-input-group">
+                        <label for="comments" class="registration-label">Comments:</label>
+                        <textarea id="comments" name="comments" rows="4" cols="50"
+                            class="registration-textarea"></textarea>
+                    </p>
+                </fieldset>
+
+                <p class="registration-buttons">
+                    <input type="submit" value="Register" class="registration-submit" />
+                    <input type="reset" value="Clear Form" class="registration-reset" />
+                </p>
+            </form>
+        </section>
+    </main>
+
+
+    <footer class="webdev-footer">
+        <p>&copy; 2023 Web Development Course. All rights reserved.</p>
+        <nav class="webdev-footer-nav">
+            <ul class="webdev-footer-nav-list">
+                <li><a href="index.html" class="webdev-footer-link">Home</a></li>
+                <li><a href="registration.html" class="webdev-footer-link">Registration</a></li>
+                <li><a href="products.html" class="webdev-footer-link">Products</a></li>
+                <li><a href="contact.html" class="webdev-footer-link">Contact Us</a></li>
+            </ul>
+        </nav>
+        <p>This website demonstrates HTML5 semantic structure without any CSS styling.</p>
+    </footer>
+</body>
+
+</html>
