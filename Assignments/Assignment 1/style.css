@@ -121,13 +121,13 @@
 }
 
 .webdev-section-title:before {
-    content: "";
-    width: 73%;
-    height: 3px;
-    background-color: #2c3e50;
-    position: absolute;
-    bottom: 1px;
-    border-radius: 10px;
+  content: "";
+  width: 73%;
+  height: 3px;
+  background-color: #2c3e50;
+  position: absolute;
+  bottom: 1px;
+  border-radius: 10px;
 }
 
 
@@ -364,6 +364,7 @@
   margin-bottom: 2rem;
   border-left: 5px solid #2c3e50;
   padding-left: 1rem;
+  border-radius: 10px;
 }
 
 .contact-subtitle {
