@@ -1,98 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>WebDev Course - Registration</title>
 </head>
+
 <body>
     <header class="bg-slate-700 w-100 h-max py-6 px-5">
         <h1 class="text-white text-3xl font-bold">WebDev Course</h1>
         <nav>
             <ul class="text-white flex gap-5 mt-4 font-medium">
-                <li><a class="hover:bg-white hover:text-black p-3 rounded-xl" href="index.html">Home</a></li>
-                <li><a class="hover:bg-white hover:text-black p-3 rounded-xl"  href="registration.html">Registration</a></li>
-                <li><a class="hover:bg-white hover:text-black p-3 rounded-xl"  href="products.html">Products</a></li>
-                <li><a class="hover:bg-white hover:text-black p-3 rounded-xl"  href="contact.html">Contact Us</a></li>
+                <li><a class="hover:bg-white duration-200 hover:text-black p-3 rounded-xl" href="index.html">Home</a></li>
+                <li><a class="hover:bg-white duration-200 hover:text-black p-3 rounded-xl" href="registration.html">Registration</a>
+                </li>
+                <li><a class="hover:bg-white duration-200 hover:text-black p-3 rounded-xl" href="products.html">Products</a></li>
+                <li><a class="hover:bg-white duration-200 hover:text-black p-3 rounded-xl" href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section>
-            <h2>User Registration</h2>
+            <h2 class="text-slate my-8 mx-4 pb-2 font-bold text-3xl text-center">User Registration</h2>
             <form action="registration-success.html" method="get">
-                <fieldset>
-                    <legend>Personal Information</legend>
-                    <p>
-                        <label for="first-name">First Name:</label>
-                        <input type="text" id="first-name" name="first-name" required>
+                <fieldset class="border-2 border-slate-800 w-6/12 my-10 mx-auto px-5 py-2 rounded-md">
+                    <legend class="text-emerald-500 text-md font-bold my-3">Personal Information</legend>
+                    <p class="flex items-center my-6">
+                        <label class="text-slate-700 font-medium w-2/4" for="first-name">First Name:</label>
+                        <input class="border-2  border-zinc-400 rounded-md w-full h-10" type="text" id="first-name"
+                            name="first-name" required>
                     </p>
-                    <p>
-                        <label for="last-name">Last Name:</label>
-                        <input type="text" id="last-name" name="last-name" required>
+                    <p class="flex items-center my-6">
+                        <label class="text-slate-700 font-medium w-2/4" for="last-name">Last Name:</label>
+                        <input class="border-2  border-zinc-400 rounded-md w-full h-10" type="text" id="last-name"
+                            name="last-name" required>
                     </p>
-                    <p>
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
+                    <p class="flex items-center my-6">
+                        <label class="text-slate-700 font-medium w-2/4" for="email">Email:</label>
+                        <input class="border-2  border-zinc-400 rounded-md w-full h-10" type="email" id="email"
+                            name="email" required>
                     </p>
-                    <p>
-                        <label for="phone">Phone:</label>
-                        <input type="tel" id="phone" name="phone">
-                    </p>
-                </fieldset>
-                
-                <fieldset>
-                    <legend>Account Information</legend>
-                    <p>
-                        <label for="username">Username:</label>
-                        <input type="text" id="username" name="username" required>
-                    </p>
-                    <p>
-                        <label for="password">Password:</label>
-                        <input type="password" id="password" name="password" required minlength="8">
-                    </p>
-                    <p>
-                        <label for="confirm-password">Confirm Password:</label>
-                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    <p class="flex items-center my-6">
+                        <label class="text-slate-700 font-medium w-2/4" for="phone">Phone:</label>
+                        <input class="border-2  border-zinc-400 rounded-md w-full h-10" type="tel" id="phone"
+                            name="phone">
                     </p>
                 </fieldset>
-                
-                <fieldset>
-                    <legend>Additional Information</legend>
-                    <p>
-                        <label for="birthdate">Birth Date:</label>
-                        <input type="date" id="birthdate" name="birthdate">
+
+                <fieldset class="border-2 border-slate-800 w-6/12 my-10 mx-auto px-5 py-2 rounded-md">
+                    <legend class="text-emerald-500 text-md font-bold my-3">Account Information</legend>
+                    <p class="flex items-center my-6">
+                        <label class="text-slate-700 font-medium w-2/4" for="username">Username:</label>
+                        <input class="border-2  border-zinc-400 rounded-md w-full h-10" type="text" id="username"
+                            name="username" required>
                     </p>
-                    <p>
-                        <label for="course-level">Course Level:</label>
-                        <select id="course-level" name="course-level">
+                    <p class="flex items-center my-6">
+                        <label class="text-slate-700 font-medium w-2/4" for="password">Password:</label>
+                        <input class="border-2  border-zinc-400 rounded-md w-full h-10" type="password" id="password"
+                            name="password" required minlength="8">
+                    </p>
+                    <p class="flex items-center my-6">
+                        <label class="text-slate-700 font-medium w-2/4" for="confirm-password">Confirm Password:</label>
+                        <input class="border-2  border-zinc-400 rounded-md w-full h-10" type="password"
+                            id="confirm-password" name="confirm-password" required>
+                    </p>
+                </fieldset>
+
+                <fieldset class="border-2 border-slate-800 w-6/12 my-10 mx-auto px-5 py-2 rounded-md">
+                    <legend class="text-emerald-500 text-md font-bold my-3">Additional Information</legend>
+                    <p class="flex items-center my-6">
+                        <label class="text-slate-700 font-medium w-2/4" for="birthdate">Birth Date:</label>
+                        <input class="border-2  border-zinc-400 rounded-md w-full h-10" type="date" id="birthdate"
+                            name="birthdate">
+                    </p>
+                    <p class="flex items-center my-6">
+                        <label class="text-slate-700 font-medium w-2/4" for="course-level">Course Level:</label>
+                        <select class="border-2  border-zinc-400 rounded-md w-full h-10" id="course-level"
+                            name="course-level">
                             <option value="beginner">Beginner</option>
                             <option value="intermediate">Intermediate</option>
                             <option value="advanced">Advanced</option>
                         </select>
                     </p>
-                    <p>
+                    <p class="my-6">
                         <label>Interests:</label><br>
                         <input type="checkbox" id="frontend" name="interests" value="frontend">
-                        <label for="frontend">Frontend Development</label><br>
-                        
+                        <label class="ms-1 text-slate-700 font-medium w-2/4" for="frontend">Frontend
+                            Development</label><br>
+
                         <input type="checkbox" id="backend" name="interests" value="backend">
-                        <label for="backend">Backend Development</label><br>
-                        
+                        <label class="ms-1 text-slate-700 font-medium w-2/4" for="backend">Backend
+                            Development</label><br>
+
                         <input type="checkbox" id="fullstack" name="interests" value="fullstack">
-                        <label for="fullstack">Full Stack Development</label>
+                        <label class="ms-1 text-slate-700 font-medium w-2/4" for="fullstack">Full Stack
+                            Development</label>
                     </p>
-                    <p>
-                        <label for="comments">Comments:</label>
-                        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                    <p class="flex items-center my-6">
+                        <label class="text-slate-700 font-medium w-2/4" for="comments">Comments:</label>
+                        <textarea class="border-2  border-zinc-400 rounded-md w-full h-40" id="comments" name="comments"
+                            rows="4" cols="50"></textarea>
                     </p>
                 </fieldset>
-                
-                <p>
-                    <input type="submit" value="Register">
-                    <input type="reset" value="Clear Form">
+
+                <p class="flex justify-center">
+                    <input class="bg-slate-700 text-white px-8 py-3 rounded-md mx-4 block my-4 hover:cursor-pointer hover:bg-emerald-500 duration-200" type="submit"
+                        value="Register">
+                    <input class="bg-slate-700 text-white px-8 py-3 rounded-md mx-4 block my-4 hover:cursor-pointer hover:bg-emerald-500 duration-200" type="reset"
+                        value="Clear Form">
                 </p>
             </form>
         </section>
@@ -101,13 +119,15 @@
         <p>&copy; 2023 Web Development Course. All rights reserved.</p>
         <nav>
             <ul class="flex gap-5 justify-center my-4">
-                <li><a class="hover:bg-white hover:text-black p-3 rounded-xl"  href="index.html">Home</a></li>
-                <li><a class="hover:bg-white hover:text-black p-3 rounded-xl"  href="registration.html">Registration</a></li>
-                <li><a class="hover:bg-white hover:text-black p-3 rounded-xl"  href="products.html">Products</a></li>
-                <li><a class="hover:bg-white hover:text-black p-3 rounded-xl"  href="contact.html">Contact Us</a></li>
+                <li><a class="hover:bg-white duration-200 hover:text-black p-3 rounded-xl" href="index.html">Home</a></li>
+                <li><a class="hover:bg-white duration-200 hover:text-black p-3 rounded-xl" href="registration.html">Registration</a>
+                </li>
+                <li><a class="hover:bg-white duration-200 hover:text-black p-3 rounded-xl" href="products.html">Products</a></li>
+                <li><a class="hover:bg-white duration-200 hover:text-black p-3 rounded-xl" href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
         <p>This website demonstrates HTML5 semantic structure without any CSS styling.</p>
     </footer>
 </body>
+
 </html>
