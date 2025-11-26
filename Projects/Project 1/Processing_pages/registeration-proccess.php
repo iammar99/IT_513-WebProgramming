@@ -67,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
             $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
             if ($user) {
-                $error[] = "User with this Email already exist";
+                $error[] = "User with this Email already exist.";
             } else {
                 $query = "INSERT INTO users 
             (name, email, phone, username, password, birthdate, course_level, interests, comments) 

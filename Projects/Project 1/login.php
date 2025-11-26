@@ -4,7 +4,7 @@ session_start();
 $pageTitle = "User Registration";
 require_once "includes/header.php";
 
-$errors = $_SESSION["errors"];
+$errors = $_SESSION["errors"] ? $_SESSION["errors"] : [] ;
 ?>
 
 
